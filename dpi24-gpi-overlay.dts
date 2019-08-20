@@ -2,8 +2,8 @@
 /plugin/;
 
 /{
-    compatible = "brcm,bcm2835", "allwinner,sun4i-a10", "allwinner,sun7i-a20", "allwinner,sun8i-h3", "allwinner,sun50i-a64", "allwinner,sun50i-h5";
-
+    compatible = "brcm,bcm2835", "allwinner,sun4i-a10", "allwinner,sun7i-a20", "allwinner,sun8i-h3", "allwinner,sun50i-a64", "allwinner,sun50i-h5", "sinovoip,bpi-m2-zero", "allwinner,sun8i-h2-plus";
+    
     // There is no DPI driver module, but we need a platform device
     // node (that doesn't already use pinctrl) to hang the pinctrl
     // reference on - leds will do
