@@ -2,7 +2,7 @@
 /plugin/;
 
 / {
-    compatible = "brcm,bcm2835", "allwinner,sun4i-a10", "allwinner,sun7i-a20", "allwinner,sun8i-h3", "allwinner,sun50i-a64", "allwinner,sun50i-h5";
+    compatible = "brcm,bcm2835", "allwinner,sun4i-a10", "allwinner,sun7i-a20", "allwinner,sun8i-h3", "allwinner,sun50i-a64", "allwinner,sun50i-h5", "sinovoip,bpi-m2-zero", "allwinner,sun8i-h2-plus";
 
     fragment@0 {
         target = <&gpio>;
